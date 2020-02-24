@@ -19,6 +19,10 @@ nav {
     text-decoration: underline;
 }
 
+.nav-item:link {
+    color: black;
+}
+
 /*logo*/
 .logo {
     height: 80px;
@@ -140,5 +144,9 @@ footer {
 
 .advertising:visited, .privacy:visited, .location:visited {
     color: grey;
+}
+
+.advertising:link, .privacy:link, .location:link {
+    color: black;
 }
 
